@@ -1,0 +1,222 @@
+---
+title: "Ecosistema para HackODS UNAM 2026"
+lang: es
+
+author:
+  name: Guillermo Barrios del Valle
+  email: gbv@ier.unam.mx
+  afiliation: Instituto de Energías Renovables, UNAM
+format: 
+
+  revealjs:
+    # css: styles.css
+    transition: slide
+    background-transition: fade
+    # parallax-background-image: images/fondo.png 
+    # parallax-background-size: "210px 90px"
+    # parallax-background-horizontal: 200
+    # parallax-background-vertical: 50
+    slide-number: c/t  
+    touch: true
+    footer: HackODS UNAM 2026
+    logo: imagenes/logo.png
+  
+---
+
+
+## Ecosistema HackODS UNAM 2026   
+
+
+<br>
+
+<br>
+
+- Python
+- uv (ambiente virtual)
+- uso básico de terminal
+- Jupyter notebook
+
+## Objetivo
+
+
+<br>
+<br>
+
+```python
+print('Hola mundo')
+```
+
+<br>
+<br>
+En Jupyter notebook
+
+## ¿Por qué Python?
+
+<br>
+
+- **Software libre** y gratuito
+- **Multiplataforma** (Windows, macOS, Linux)
+- **Multipropósito** (web, automatización, ciencia, IA…)
+- Lenguaje con **mayor crecimiento** en la última década
+- **Lenguaje preferido** en ciencia de datos
+
+
+## ¿Por qué Miniconda?
+
+<br>
+
+- Distribución **gratuita** de Python
+- Muy **ligera** (~80 MB de instalación inicial)
+- Altamente **personalizable**: instala solo lo que necesitas
+- Incluye una **terminal propia** que funciona bien para todo lo que haremos
+
+
+## ¿Por qué ambientes virtuales?
+
+<br>
+
+- **Aíslan** las dependencias de cada proyecto
+- Mejoran la **reproducibilidad**
+- Algunos sistemas **solo permiten** instalar paquetes en ambientes virtuales
+- Evitan conflictos entre versiones de librerías
+
+
+## ¿Por qué uv?
+
+<br>
+
+- Extremadamente **rápido** (escrito en Rust)
+- **No requiere activar** el ambiente → fácil de usar
+- Actualiza automáticamente el equivalente al `requirements.txt`
+- Reemplaza `pip`, `pip-tools` y `virtualenv` en una sola herramienta
+
+
+## Instalar Python con miniconda
+
+
+<br>
+<br>
+<br>
+
+Naveguemos... recuerda **miniconda**.
+
+
+
+## Ancla la terminal
+
+
+<br>
+<br>
+![](imagenes/ancla.png)
+
+
+## Instala uv de Astral
+
+<br>
+
+![](imagenes/uv-astral.png)
+
+
+## Conceptos: HOME
+
+<br>
+
+![](imagenes/home.png)
+
+<br>
+
+```
+C:\Users\gbv
+```
+
+## Al abrir la terminal de anaconda
+
+<br>
+
+![](imagenes/home-terminal.png)
+
+
+## El comando `cd`
+
+<br>
+
+**c**hange **d**irectory — cambia de carpeta
+
+<br>
+
+```bash
+cd nombre_de_carpeta
+```
+
+<br>
+
+La terminal solo "ve" lo que hay en la carpeta actual
+
+
+## Ir al Escritorio
+
+<br>
+
+```bash
+cd Desktop
+```
+
+<br>
+
+Ahora estás en:
+
+```
+C:\Users\gbv\Desktop
+```
+
+
+## Ir a Descargas
+
+<br>
+
+Primero regresa a HOME:
+
+```bash
+cd ..
+```
+
+Luego entra a Descargas:
+
+```bash
+cd Downloads
+```
+
+
+## Ir a Documentos
+
+<br>
+
+Regresa a HOME:
+
+```bash
+cd ..
+```
+
+Entra a Documentos:
+
+```bash
+cd Documents
+```
+
+
+## Resumen de `cd`
+
+<br>
+
+| Comando | Acción |
+|---------|--------|
+| `cd carpeta` | Entra a una carpeta |
+| `cd ..` | Sube un nivel  |
+| `cd ..\otra` | Sube y entra a otra carpeta |
+
+## Explorador de Windows
+
+
+<br>
+
+![](imagenes/ii-terminal.png)

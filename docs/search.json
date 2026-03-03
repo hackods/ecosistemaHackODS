@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html#ecosistema-hackods-unam-2026",
+    "href": "index.html#ecosistema-hackods-unam-2026",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Ecosistema HackODS UNAM 2026",
+    "text": "Ecosistema HackODS UNAM 2026\n\n\n\nPython\nuv (ambiente virtual)\nuso básico de terminal\nJupyter notebook"
+  },
+  {
+    "objectID": "index.html#objetivo",
+    "href": "index.html#objetivo",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Objetivo",
+    "text": "Objetivo\n \nprint('Hola mundo')\n  En Jupyter notebook"
+  },
+  {
+    "objectID": "index.html#por-qué-python",
+    "href": "index.html#por-qué-python",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "¿Por qué Python?",
+    "text": "¿Por qué Python?\n\n\nSoftware libre y gratuito\nMultiplataforma (Windows, macOS, Linux)\nMultipropósito (web, automatización, ciencia, IA…)\nLenguaje con mayor crecimiento en la última década\nLenguaje preferido en ciencia de datos"
+  },
+  {
+    "objectID": "index.html#por-qué-miniconda",
+    "href": "index.html#por-qué-miniconda",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "¿Por qué Miniconda?",
+    "text": "¿Por qué Miniconda?\n\n\nDistribución gratuita de Python\nMuy ligera (~80 MB de instalación inicial)\nAltamente personalizable: instala solo lo que necesitas\nIncluye una terminal propia que funciona bien para todo lo que haremos"
+  },
+  {
+    "objectID": "index.html#por-qué-ambientes-virtuales",
+    "href": "index.html#por-qué-ambientes-virtuales",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "¿Por qué ambientes virtuales?",
+    "text": "¿Por qué ambientes virtuales?\n\n\nAíslan las dependencias de cada proyecto\nMejoran la reproducibilidad\nAlgunos sistemas solo permiten instalar paquetes en ambientes virtuales\nEvitan conflictos entre versiones de librerías"
+  },
+  {
+    "objectID": "index.html#por-qué-uv",
+    "href": "index.html#por-qué-uv",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "¿Por qué uv?",
+    "text": "¿Por qué uv?\n\n\nExtremadamente rápido (escrito en Rust)\nNo requiere activar el ambiente → fácil de usar\nActualiza automáticamente el equivalente al requirements.txt\nReemplaza pip, pip-tools y virtualenv en una sola herramienta"
+  },
+  {
+    "objectID": "index.html#instalar-python-con-miniconda",
+    "href": "index.html#instalar-python-con-miniconda",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Instalar Python con miniconda",
+    "text": "Instalar Python con miniconda\n  \nNaveguemos… recuerda miniconda."
+  },
+  {
+    "objectID": "index.html#ancla-la-terminal",
+    "href": "index.html#ancla-la-terminal",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Ancla la terminal",
+    "text": "Ancla la terminal"
+  },
+  {
+    "objectID": "index.html#instala-uv-de-astral",
+    "href": "index.html#instala-uv-de-astral",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Instala uv de Astral",
+    "text": "Instala uv de Astral"
+  },
+  {
+    "objectID": "index.html#conceptos-home",
+    "href": "index.html#conceptos-home",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Conceptos: HOME",
+    "text": "Conceptos: HOME\n\n\n\nC:\\Users\\gbv"
+  },
+  {
+    "objectID": "index.html#al-abrir-la-terminal-de-anaconda",
+    "href": "index.html#al-abrir-la-terminal-de-anaconda",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Al abrir la terminal de anaconda",
+    "text": "Al abrir la terminal de anaconda"
+  },
+  {
+    "objectID": "index.html#el-comando-cd",
+    "href": "index.html#el-comando-cd",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "El comando cd",
+    "text": "El comando cd\n\nchange directory — cambia de carpeta\n\ncd nombre_de_carpeta\n\nLa terminal solo “ve” lo que hay en la carpeta actual"
+  },
+  {
+    "objectID": "index.html#ir-al-escritorio",
+    "href": "index.html#ir-al-escritorio",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Ir al Escritorio",
+    "text": "Ir al Escritorio\n\ncd Desktop\n\nAhora estás en:\nC:\\Users\\gbv\\Desktop"
+  },
+  {
+    "objectID": "index.html#ir-a-descargas",
+    "href": "index.html#ir-a-descargas",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Ir a Descargas",
+    "text": "Ir a Descargas\n\nPrimero regresa a HOME:\ncd ..\nLuego entra a Descargas:\ncd Downloads"
+  },
+  {
+    "objectID": "index.html#ir-a-documentos",
+    "href": "index.html#ir-a-documentos",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Ir a Documentos",
+    "text": "Ir a Documentos\n\nRegresa a HOME:\ncd ..\nEntra a Documentos:\ncd Documents"
+  },
+  {
+    "objectID": "index.html#resumen-de-cd",
+    "href": "index.html#resumen-de-cd",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Resumen de cd",
+    "text": "Resumen de cd\n\n\n\n\nComando\nAcción\n\n\n\n\ncd carpeta\nEntra a una carpeta\n\n\ncd ..\nSube un nivel\n\n\ncd ..\\otra\nSube y entra a otra carpeta"
+  },
+  {
+    "objectID": "index.html#explorador-de-windows",
+    "href": "index.html#explorador-de-windows",
+    "title": "Ecosistema para HackODS UNAM 2026",
+    "section": "Explorador de Windows",
+    "text": "Explorador de Windows"
+  }
+]
